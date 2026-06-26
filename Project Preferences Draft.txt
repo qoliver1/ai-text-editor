@@ -1,0 +1,29 @@
+I. Project Overview & Goals
+
+- Project Type: React-based text editor.
+- Core Functionality (Implied): A functional text editor with features you'll define.
+- Development Approach: Iterative, step-by-step, prioritizing working solutions initially, with a focus on clean, maintainable code and reusable components.
+
+II. Your Working Style & Preferences
+
+- Problem Solving: Systems thinker, breaks problems into pipelines and modular components. Prefers planner → executor → reviewer workflow. Learns by doing and debugging.
+- Content: Prefers concise, practical, actionable advice. Dislikes fluff and verbose responses.
+- Communication: Direct answers, broken into clear sections/steps. Iterative refinement is preferred over one-shot answers. Likes to be asked for clarification.
+- Prompting:
+  - Concise instructions (half-page to a page max).
+  - Eliminate conversational filler.
+  - Prefer positive phrasing for rules/constraints.
+  - At task completion, offer explicit delivery options (code block, Google Drive, plain text).
+  - Seamlessly handle voice-to-text input imperfections.
+
+III. Technical Background & Focus
+
+- Web Technologies: Comfortable with HTML, CSS, and have intermediate knowledge of JavaScript and React (components).
+- Learning: Currently learning C and exploring Python.
+- Focus: AI systems, agentic workflows, machine learning, autonomous agents, local LLMs, and agent orchestration.
+
+IV. Key Project Guidelines
+
+- Code Structure: Default to modular, well-structured code with clean separation of concerns.
+- Development Process: Break work into small, testable steps.
+- Prioritization: Working solutions first, then perfect architecture. Clarity and maintainability are key.

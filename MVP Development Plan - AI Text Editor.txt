@@ -1,0 +1,61 @@
+# MVP Product Requirements & Development Plan - AI Text Editor
+
+## 1. Problem Statement
+People need a fast, simple way to iteratively refine short text and prompts with AI assistance, then easily save, organize, and copy them for use across different apps and devices.
+
+## 2. Target Users
+Prompt engineers, developers, students, and researchers — anyone who regularly writes, refines, and reuses text or prompts with AI tools.
+
+## 3. MVP Goal
+Build a simple web tool that lets users quickly refine and iterate on text and prompts with AI assistance. Success will be measured by whether users actively return to refine or save prompts at least 3 times per week.
+
+## 4. Core Features (MoSCoW)
+
+### Must Have
+- Rich text editor using TipTap
+- Text chat input to communicate with AI
+- Ability to select/highlight text and send both selected text + full context to the AI
+- One-tap Copy button
+- Select All button
+- Secure handling of user-provided API keys (Backend proxy)
+- Error states and user feedback for API failures
+
+### Should Have
+- Push-to-talk voice input (using browser Speech Recognition)
+- Local persistence for current editor state (e.g., localStorage)
+- Visual loading states/indicators during AI processing
+
+### Could Have
+- Simple version history (undo last AI change)
+
+### Won't Have (Future Features)
+- Server-side document load/save
+- User accounts / Authentication
+- Voice transcription / TTS / Voice cloning
+- Local AI models
+
+## 5. Tech Stack
+- **Frontend:** React + Vite + Tailwind CSS + TipTap
+- **Backend:** Next.js API Routes (for handling Gemini API calls securely)
+- **AI:** Google Gemini API
+- **Hosting:** Vercel
+- **Key Strategy:** Users enter their Gemini API key in settings. The key is sent to the backend proxy, not exposed directly in the frontend.
+
+## 6. Development Backlog & Sprints
+
+### Sprint 1 - Core Experience
+- Set up React + Vite + Tailwind + TipTap project
+- Create main layout (Rich Text Editor + Chat Area)
+- Implement TipTap editor component
+- Implement chat input functionality
+- Implement Backend proxy for Gemini API calls
+- Connect Frontend to Backend
+- Display AI responses in the editor
+- Add loading indicators and error handling
+- Add Select All and Copy buttons
+
+### Future Sprints
+- Push-to-talk voice input
+- Version history (undo)
+- Advanced prompt engineering / system instructions
+- Enhanced error handling / retry logic
