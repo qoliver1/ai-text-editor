@@ -1,1 +1,2 @@
+- [Tiptap Toolbar Implementation](memory\tiptap-toolbar-implementation.md) — manual toolbar implementation and Vite cache fix
 - [Project Init](memory\project-init.md) — initial state before Tiptap import
